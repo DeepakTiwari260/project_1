@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">MyWebsite</div>
+
+    <!-- Hamburger Menu -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <a href="#features">Features</a>
+          <ul class="dropdown-content">
+            <li><a href="#features">Interface</a></li>
+            <li><a href="#features">Support</a></li>
+            <li><a href="#features">Cloud</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#services">Services</a>
+          <ul class="dropdown-content">
+            <li><a href="#services">Web Design</a></li>
+            <li><a href="#services">Hosting</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Welcome to MyWebsite</h1>
+    <p>Your one-stop solution for modern web services.</p>
+    <button class="cta">Get Started</button>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <h2>Our Key Features</h2>
+    <div class="feature-box">
+      <h3>User-Friendly Interface</h3>
+      <p>Simple navigation with clean design.</p>
+    </div>
+    <div class="feature-box">
+      <h3>24/7 Support</h3>
+      <p>We are always here to help you.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Customizable Options</h3>
+      <p>Personalize features to suit your needs.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Cloud Integration</h3>
+      <p>Access your data anywhere, anytime.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Analytics Dashboard</h3>
+      <p>Track performance with detailed insights.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <p>We provide web design, hosting, and more.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 MyWebsite | Privacy Policy | Terms of Service</p>
+  </footer>
+</body>
+</html>
